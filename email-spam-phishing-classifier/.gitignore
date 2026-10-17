@@ -1,0 +1,28 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated reports (the folder itself is kept via .gitkeep)
+reports/*
+!reports/.gitkeep
+
+# Secrets / local config
+.env
+*.key
+*.pem
+secrets.toml
+.streamlit/secrets.toml
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

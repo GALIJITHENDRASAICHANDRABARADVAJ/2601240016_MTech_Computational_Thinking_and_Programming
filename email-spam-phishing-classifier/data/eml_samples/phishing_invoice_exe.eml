@@ -1,0 +1,26 @@
+From: Accounts <billing@invoice-center.example>
+To: finance@acme-corp.example
+Subject: Unpaid invoice - final notice
+Date: Tue, 06 Oct 2026 14:30:00 +0000
+Message-ID: <20261006143000.7@invoice-center.example>
+Authentication-Results:
+ mx.acme-corp.example; spf=softfail; dkim=none; dmarc=none
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============2598912127614103016=="
+
+--===============2598912127614103016==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Your invoice is overdue. Open the attached invoice immediately to avoid legal=
+ action.
+
+--===============2598912127614103016==
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="invoice_8841.pdf.exe"
+MIME-Version: 1.0
+
+SEFSTUxFU1MgUExBQ0VIT0xERVIgVEVYVCAtIHRoaXMgaXMgbm90IGFuIGV4ZWN1dGFibGUu
+
+--===============2598912127614103016==--

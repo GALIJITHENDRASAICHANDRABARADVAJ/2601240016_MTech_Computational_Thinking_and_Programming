@@ -1,0 +1,6 @@
+# Runtime: the classifier core (parser, features, scoring, async scanner, reports, CLI) uses only the
+# Python standard library. These packages are needed for the Streamlit dashboard and for testing.
+streamlit>=1.30,<2
+pandas>=2.0
+# Testing (optional: the suite also runs with `python -m unittest`)
+pytest>=7.4

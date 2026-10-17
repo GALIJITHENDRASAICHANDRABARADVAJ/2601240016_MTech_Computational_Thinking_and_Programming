@@ -1,0 +1,30 @@
+From: "PayPal Support" <service@paypa1-secure.top>
+Reply-To: paypal.resolution@gmail.com
+Return-Path: <bounce@mailer-xyz.example>
+To: victim@acme-corp.example
+Subject: Your PayPal account has been limited - action required
+Date: Mon, 05 Oct 2026 09:12:00 +0000
+Message-ID: <20261005091200.1@paypa1-secure.top>
+Authentication-Results: mx.acme-corp.example; spf=fail
+ smtp.mailfrom=paypa1-secure.top; dkim=none; dmarc=fail
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============1431055181676855748=="
+
+--===============1431055181676855748==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+We noticed unusual activity. Verify your account and confirm your password wi=
+thin 24 hours: http://paypa1-secure.top/login
+
+--===============1431055181676855748==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>We noticed unusual activity on your account.</p><p>Verify your=
+ account and confirm your password within 24 hours.</p><p><a href=3D"http://p=
+aypa1-secure.top/login">https://www.paypal.com/restore</a></p></body></html>
+
+--===============1431055181676855748==--

@@ -1,0 +1,17 @@
+From: Priya Sharma <priya.sharma@acme-corp.example>
+To: team@acme-corp.example
+Subject: Agenda for Thursday's planning meeting
+Date: Thu, 08 Oct 2026 08:05:00 +0000
+Message-ID: <20261008080500.2@acme-corp.example>
+Authentication-Results: mx.acme-corp.example; spf=pass; dkim=pass; dmarc=pass
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+Hi all,
+
+Attached to the calendar invite is the agenda for Thursday's planning meeting=
+. Please add your items to the shared document beforehand.
+
+Thanks,
+Priya
